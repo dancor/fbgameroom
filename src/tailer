@@ -1,0 +1,6 @@
+#!/bin/sh
+while true
+do
+  tail -n1 nums > /var/www/avail
+  sleep 1
+done
